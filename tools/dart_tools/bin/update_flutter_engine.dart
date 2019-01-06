@@ -28,11 +28,11 @@ const String lastDownloadedVersionFile = '.last_engine_version';
 
 /// The base URL for downloading prebuilt engine archives.
 const String engineArchiveBaseUrlString =
-    'https://storage.googleapis.com/flutter_infra/flutter';
+    'https://storage.flutter-io.cn/flutter_infra/flutter';
 
 /// Simple container for platform-specific information.
 class PlatformInfo {
-  // The subpath on storage.googleapis.com for a platform's engine archive.
+  // The subpath on storage.flutter-io.cn for a platform's engine archive.
   final String archiveSubpath;
   // The extracted engine library filename for a platform.
   final String libraryFile;
